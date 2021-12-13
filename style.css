@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+form input{
+    width: auto;
+    height: 2rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+form button{
+    width: auto;
+    height: 2rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
